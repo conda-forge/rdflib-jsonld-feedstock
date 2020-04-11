@@ -20,7 +20,7 @@ requirements:
     - setuptools
   run:
     - python
-    - rdflib >=4.2
+    - rdflib >=4.2.2
     - setuptools
 
 test:
