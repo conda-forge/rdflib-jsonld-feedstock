@@ -18,11 +18,11 @@ requirements:
   host:
     - pip
     - python
-    - setuptools
+    - setuptools <58
   run:
     - python
     - rdflib >=4.2.2
-    - setuptools
+    - setuptools <58
 
 test:
   imports:
