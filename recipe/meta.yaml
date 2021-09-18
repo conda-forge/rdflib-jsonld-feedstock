@@ -1,5 +1,5 @@
 {% set name = "rdflib-jsonld" %}
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: eda5a42a2e09f80d4da78e32b5c684bccdf275368f1541e6b7bcddfb1382a0e0
+  sha256: 107cd3019d41354c31687e64af5e3fd3c3e3fa5052ce635f5ce595fd31853a63
 
 build:
   number: 0
