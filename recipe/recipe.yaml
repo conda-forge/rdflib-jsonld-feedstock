@@ -9,7 +9,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.io/packages/source/r/rdflib-jsonld/rdflib-jsonld-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/r/rdflib-jsonld/rdflib-jsonld-${{ version }}.tar.gz
   sha256: 107cd3019d41354c31687e64af5e3fd3c3e3fa5052ce635f5ce595fd31853a63
 
 build:
@@ -25,7 +25,7 @@ requirements:
     - setuptools
     - wheel
   run:
-    - python >= ${{ python_min }}
+    - python >=${{ python_min }}
     - rdflib >=5.0.0
 
 tests:
