@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: 0.6.2
+  version: 0.6.1
 
 package:
   name: rdflib-jsonld
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/r/rdflib-jsonld/rdflib-jsonld-${{ version }}.tar.gz
-  sha256: 107cd3019d41354c31687e64af5e3fd3c3e3fa5052ce635f5ce595fd31853a63
+  sha256: eda5a42a2e09f80d4da78e32b5c684bccdf275368f1541e6b7bcddfb1382a0e0
 
 build:
-  number: 6
+  number: 1
   noarch: python
   script:
     - ${{ PYTHON }} -m pip install . -vv --no-deps --disable-pip-version-check
